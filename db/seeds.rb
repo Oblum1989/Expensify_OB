@@ -8,7 +8,6 @@
 
 
 Type.delete_all
-Category.delete_all
 
 Type.create([
   { name: 'Compra' },
@@ -16,10 +15,3 @@ Type.create([
   { name: 'Transferencia' },
   { name: 'Pago' }
 ])
-
-Category.create([
-    { name: 'Compra' },
-    { name: 'Retiro' },
-    { name: 'Transferencia' },
-    { name: 'Pago' }
-  ])

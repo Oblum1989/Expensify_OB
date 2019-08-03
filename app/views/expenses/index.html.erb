@@ -3,15 +3,24 @@
     <div class="col-md-3">
       <h4 class="filter-header">Transaction Type <span>Choose to filter</span></h4>
       <div class="list-group filter-type">
-        <a href="#" class="list-group-item">Purchase</a>
-        <a href="#" class="list-group-item">Withdrawal</a>
+        <% @types.each do |type| %>
+        <a href="#" class="list-group-item"><%= type.name %></a>
+        <% end %>
+
         <!-- more transaction types -->
       </div>
 
-      <h4 class="filter-header">Categoría <span>Selecciona para filtrar</span></h4>
+      <h4 class="filter-header">
+        Categoría
+        <span>Selecciona para filtrar</span>
+      </h4>
       <div class="list-group filter-type">
-        <a href="#" class="list-group-item">Restaurants</a>
-        <a href="#" class="list-group-item">Car</a>
+        <% @categories.each do |category| %>
+        <a href="#" class="list-group-item"><%= category.name %></a>
+        <% end %>
+        <%= link_to categories_path, class: "btn btn-success pull-left" do %>
+        <span class="glyphicon glyphicon-plus"> Categorias</span>
+        <% end %>
         <!-- more categories  -->
       </div>
     </div>
@@ -35,7 +44,8 @@
         <div class="col-md-12">
           <a href="#" class="btn btn-success pull-left"><span class="glyphicon glyphicon-plus"></span> New Expense</a>
           <h4 class="dropdown pull-right">
-            <button type="button" class="dropdown-toggle btn btn-link" data-toggle="dropdown">April 2016 <span class="caret"></span></button>
+            <button type="button" class="dropdown-toggle btn btn-link" data-toggle="dropdown">April 2016 <span
+                class="caret"></span></button>
             <ul class="dropdown-menu" role="menu">
               <li role="presentation"><a href="#">April 2016</a></li>
               <li role="presentation"><a href="#">March 2016</a></li>
