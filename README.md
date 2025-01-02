@@ -1,24 +1,34 @@
-## README
+# Expensify_OB
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Expensify_OB es una aplicación web desarrollada con Ruby on Rails para la gestión de gastos. Este proyecto fue creado para mejorar mis habilidades en la creación de aplicaciones web personalizadas, con funcionalidades específicas para el manejo eficiente de finanzas.
 
-Things you may want to cover:
+## Descripción
 
-* Ruby version
+Expensify_OB incluye:
 
-* System dependencies
+- Registro y gestión de usuarios.
+- Creación, edición y eliminación de categorías y transacciones.
+- Generación de informes financieros para un mejor análisis.
+- Interfaz intuitiva y diseño responsivo.
 
-* Configuration
+## Características
 
-* Database creation
+- CRUD de categorías y transacciones.
+- Autenticación segura de usuarios.
+- Panel de administración para el seguimiento de datos.
+- Integración con bases de datos para almacenamiento y recuperación de datos financieros.
 
-* Database initialization
+## Lecciones Aprendidas
 
-* How to run the test suite
+Este proyecto me permitió:
 
-* Services (job queues, cache servers, search engines, etc.)
+- Comprender el flujo completo del desarrollo web en Ruby on Rails.
+- Mejorar mis habilidades en la creación de aplicaciones personalizadas con funcionalidades específicas.
+- Experimentar con estilos visuales y diseño responsivo para mejorar la experiencia del usuario.
 
-* Deployment instructions
+## Contacto
 
-* ...
+Oscar Blum Carrero  
+📧 oscar.blum@gmail.com  
+🌐 LinkedIn: [linkedin.com/in/oscarblumcarrero](https://linkedin.com/in/oscarblumcarrero)  
+🐙 GitHub: [github.com/Oblum1989](https://github.com/Oblum1989)
